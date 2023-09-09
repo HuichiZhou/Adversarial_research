@@ -1,0 +1,9 @@
+%run main.py #第二步跑gpt3.5
+output：it has been done, now skip it 
+----------------------------
+目前还没搞到gpt4的key，如果想尝试猜测只需修改这三个地方 in main.py（）
+line14： OPENAI_API_KEY = "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" 修改key（此处3.5）
+line68：model="gpt-3.5-turbo-0613"  修改为gpt-4-0613
+line95： "text-babbage-001"][0])--修改为"text-babbage-001"][1])-
+
+迷惑：后面的text暂时还不知道是啥意思--------------------------------------
