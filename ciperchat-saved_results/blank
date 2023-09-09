@@ -1,0 +1,5 @@
+要运行main.py,只需在main里修改这几个地方
+line14 OPENAI_API_KEY = "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"#加载key
+line17：da = torch.load("/content/drive/MyDrive/CipherChat/data/data_en_zh.dict") # load data，可能需要修改路径
+！pip install openai
+%run main.py
